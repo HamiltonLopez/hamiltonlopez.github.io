@@ -3,7 +3,7 @@ import githubLogo from "../assets/github.svg";
 import '../styles/Home.css';
 function Home() {
   return <>
-  <section className="container">
+  <section id="home" className="container">
     <div className="info">
             <h2 className="text-center">Desarrollador de Software</h2>
             <h1 className="text-center text-white">Hamilton López</h1>

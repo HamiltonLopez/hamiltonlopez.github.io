@@ -18,7 +18,7 @@ import GitHubLogo from "../assets/github.svg";
 function Skills() {
   return (
     <>
-      <section className="container">
+      <section id="skills" className="container">
         <h5 className="skills-title m-5">Skills</h5>
         <div className="skills-section text-white mb-5" id="skills">
 
