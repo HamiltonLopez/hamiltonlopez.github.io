@@ -1,0 +1,23 @@
+.skills-section img{
+ width: 4rem;
+ margin: 0.5rem;
+}
+
+.github-logo{
+  filter: brightness(0) invert(1);
+  width: 3rem;
+}
+
+.skills-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.skills-section h6{
+   font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+}

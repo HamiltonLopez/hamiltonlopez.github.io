@@ -9,6 +9,10 @@
 body{
     background-color: #242424;
 }
+html {
+  scroll-behavior: smooth;   /* habilita animación de scroll */
+}
+
 
 
 
