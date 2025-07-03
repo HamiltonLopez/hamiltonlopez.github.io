@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <>
-    <div className="container">
+    <section className="container">
       <nav className="navbar navbar-expand-lg ">
               <a className="navbar-brand text-white " href="#">
                  <img src={logo} className="logo-hamilton me-4" alt="Logo" />
@@ -51,7 +51,7 @@ function Header() {
                 </ul>
               </div>
             </nav>
-            </div>
+            </section>
             </>
   );
 }
