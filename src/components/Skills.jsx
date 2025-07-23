@@ -21,11 +21,11 @@ function Skills() {
       <section id="skills" className="skills">
         <div className="container text-center">
 
-        <h5 className="skills-title m-5">Skills</h5>
+        <h5 className="skills-title mt-5">Skills</h5>
         <div className="skills-section text-white mb-5" id="skills">
 
 
-          <div className="skills-back col-6">
+          <div className="skills-back col-md-6 mt-5">
             <h6 className="skills-back-title">Back-end</h6>
             <img src={JavaLogo} className="java-logo" alt="Java logo" />
              <img src={SpringLogo} className="spring-logo" alt="Spring logo" />
@@ -39,7 +39,7 @@ function Skills() {
 
           </div>
 
-          <div className="skills-front col-6">
+          <div className="skills-front col-md-6 mt-5">
             <h6 className="skills-front-title">Front-end</h6>
             <img src={HtmlLogo} className="html-logo" alt="HTML logo" />
             <img src={CssLogo} className="css-logo" alt="CSS logo" />
@@ -47,14 +47,14 @@ function Skills() {
             <img src={ReactLogo} className="react-logo" alt="React logo" />
           </div>
 
-          <div className="skills-devops col-6 mt-5">
+          <div className="skills-devops col-md-6 mt-5">
             <h6 className="skills-devops-title">DevOps / Infraestructura</h6>
             <img src={DockerLogo} className="docker-logo" alt="Docker logo" />
             <img src={KubernetesLogo} className="kubernetes-logo" alt="Kubernetes logo" />
             <img src={GitActions} className="github-actions-logo" alt="GitHub Actions logo" />
           </div>
 
-          <div className="skills-control-version col-6 mt-5">
+          <div className="skills-control-version col-md-6 mt-5">
             <h6 className="skills-control-version-title">Control de versiones</h6>
             <img src={GitLogo} className="git-logo" alt="Git logo" />
             <img src={GitHubLogo} className="github-logo" alt="GitHub logo" />
