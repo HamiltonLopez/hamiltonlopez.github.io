@@ -6,6 +6,9 @@ import capProject3 from "../assets/project1/cap3.png";
 import capProject4 from "../assets/project2/cap1.png";
 import capProject5 from "../assets/project2/cap2.png";
 import capProject6 from "../assets/project2/cap3.png";
+import capProject7 from "../assets/project3/cap1.png";
+import capProject8 from "../assets/project3/cap2.png";
+import capProject9 from "../assets/project3/cap3.png";
 import githubLogo from "../assets/github.svg";
 
 function Projects() {
@@ -13,7 +16,7 @@ function Projects() {
     <>
       <section id="projects" className="container">
         <h5 className="projects-title text-center">Proyectos</h5>
-        <div className="project-one card mb-3">
+        <div className="project-one card ">
           <div className="row">
             <div className="col-md-6">
               <div
@@ -94,7 +97,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="project-one card mb-3">
+        <div className="project-one card ">
           <div className="row">
            
             <div className="col-md-6">
@@ -171,6 +174,85 @@ function Projects() {
                 </button>
               </div>
              
+            </div>
+          </div>
+        </div>
+         <div className="project-one card">
+          <div className="row">
+            <div className="col-md-6">
+              <div
+                id="carouselProject3"
+                className="carousel slide carousel-fade"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img
+                      src={capProject7}
+                      className="d-block w-100"
+                      alt="ProjectOne"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      src={capProject8}
+                      className="d-block w-100"
+                      alt="ProjectOne"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      src={capProject9}
+                      className="d-block w-100"
+                      alt="ProjectOne"
+                    />
+                  </div>
+                </div>
+                <button
+                  className="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselProject3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    className="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button
+                  className="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselProject3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    className="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
+             
+            </div>
+            <div className="col-md-6">
+              <div className="card-body">
+                <span className="tipo ">Back-end</span>
+                <h6 className="project-title">Microservicio Estudiantes</h6>
+                <p className="project-description text-white">
+                  Este proyecto implementa una arquitectura de microservicios para la gestión de estudiantes. Cuenta con automatización de procesos utilizando GitHub Actions, como lo fueron la creacion de versiones y paquetes dentro de GitHub.
+                </p>
+                <p className="project-description text-white">
+                  <strong>Tecnologías:</strong> Java, SpringBoot, MariaDB, GitActions, Docker, Kubernetes. 
+                </p>
+                <button className="git-button btn ">
+                  <a href="https://github.com/HamiltonLopez/Microservicio-SpringBoot-MariaDB" >
+                  <img src={githubLogo} alt="git-codigo" className='git-codigo me-2'/>
+                  <span className='text-white'>Código</span>
+                     
+                  </a>
+                </button>
+                
+              </div>
             </div>
           </div>
         </div>
