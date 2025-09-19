@@ -14,7 +14,6 @@ Aquí encontrarás información sobre mí, mis proyectos, habilidades y tecnolog
 - 🖼️ Imágenes y estilos personalizados
 
 ---
-
 ## 🧭 Estructura del sitio
 
 El portafolio está compuesto por una sola página (`single page application`) con las siguientes secciones:
